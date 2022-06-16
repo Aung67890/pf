@@ -1,9 +1,10 @@
 html,
-body {
+*{
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  box-sizing: border-box;
+  font-family: 'Jost', sans-serif!important;
+  
 }
 
 a {
@@ -13,4 +14,35 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+.card{
+  cursor: pointer;
+}
+
+.card:hover{
+  transform: scale(0.95);
+  transition: 0.5s;
+}
+
+.card:active{
+  transform: scale(0.9);
+  
+}
+
+.card .serviceImage:hover{
+  transform: translateX(30px);
+  transition: 1s;
+}
+
+.bgWrap {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  z-index: -1;
 }

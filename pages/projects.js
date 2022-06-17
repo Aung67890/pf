@@ -86,7 +86,7 @@ export default function Projects() {
             <UnderLined />
           </Box>
         </motion.div>
-        <Grid container spacing={3} sx={{ minHeight: "60vh",mt:3 }}>
+        <Grid container spacing={3} sx={{ minHeight: "60vh",my:3 }}>
           {arr.map((item, index) => (
             <Grid key={index} item xs={12} sm={6} md={3} sx={{}}>
                 <Box sx={{width:"100%",mt:{xs:2,md:0}}}>

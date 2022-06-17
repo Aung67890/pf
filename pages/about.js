@@ -108,7 +108,8 @@ export default function About() {
             >
               <Box sx={{ width: "80%", mt: { xs: 5, md: 0 } }}>
                 <motion.h3
-                // animate={controls}
+                initial="hidden"
+                    animate="visible"
                 variants={headerAnimation}
                 transition={{ delay: 0.2, type: "tween" }}
                 >

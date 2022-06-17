@@ -1,12 +1,12 @@
 export const headerAnimation = {
-    hidden: { x: -100, opacity: 0 },
-    visible: { x: 1, opacity: 1 },
+    hidden: {  opacity: 0 },
+    visible: { opacity: 1 },
   };
   
 
 export const imageAnimation = {
-  hidden: { scale: 2, opacity: 0 },
-  visible: { scale: 1, opacity: 1 },
+  hidden: {  opacity: 0 },
+  visible: {  opacity: 1 },
 };
 
 export const navbarAnimation = {

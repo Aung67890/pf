@@ -4,7 +4,7 @@ import React from "react";
 import MenuIcon from '@mui/icons-material/Menu';
 import NavBarMenu from './NavbarMenu'
 import Image from "next/image";
-import logo from '../public/images/programmer.png'
+import logo from '../public/favicon/apple-touch-icon.png'
 export default function NavbarCom() {
     const [anchorEl, setAnchorEl] = React.useState(null);
     const open = Boolean(anchorEl);
@@ -28,7 +28,7 @@ export default function NavbarCom() {
             
           }}
         >
-          <Box sx={{width:"50px"}}>
+          <Box sx={{width:"40px"}}>
             <Image src={logo}/>
           </Box>
           <Box sx={{ display: { xs: "none", md: "flex" } }}>

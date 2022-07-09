@@ -11,8 +11,8 @@ export const Array = [
     icon: <FacebookIcon />,
   },
   {
-    link: "https://www.instagram.com/aung_790/",
-    name: "aung_790",
+    link: "https://www.instagram.com/aung_mt768/",
+    name: "aung_mt768",
     icon: <InstagramIcon />,
   },
 

@@ -13,8 +13,8 @@ export const Array = [
       image: facebook,
     },
     {
-      link: "https://www.instagram.com/aung_790/",
-      name:"aung_790",
+      link: "https://www.instagram.com/aung_mt768/",
+      name:"aung_mt768",
       image: instagram,
     },
     

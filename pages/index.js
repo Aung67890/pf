@@ -15,7 +15,7 @@ import React, { useEffect, useRef } from "react";
 import Typed from "typed.js";
 import { imageAnimation, headerAnimation } from "../components/Animation";
 import { motion } from "framer-motion";
-// import Cover from "../public/images/CV.png";
+import Cover from "../public/images/CV.png";
 
 const TypedTitle = () => {
   const el = useRef(null);
@@ -97,12 +97,12 @@ export default function Home() {
                   <Button sx={{ mr: 1 }} variant="contained">
                     Hire me
                   </Button>
-                  {/* <a href={Cover} style={{textDecoration:"none"}} download="Aung Myat Thu's Resume" target='_blank'> */}
-                    <Button variant="outlined">
-                      Download CV
-                    </Button>
 
-                  {/* </a> */}
+                        <Button href="https://www.facebook.com/offaung.offaung/" variant="outlined">
+                          Contact me
+                        </Button>
+                      
+                 
                 </Box>
                 <Box sx={{ mt: 2 }}>
                   {Array.map((item, index) => (

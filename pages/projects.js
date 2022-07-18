@@ -46,7 +46,7 @@ const arr = [
     title: "FoodMaster with Firebase",
     text: "Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy",
     gitHubUrl:"https://github.com/Aung67890/Firebase-Next-Food-App",
-    projectDemoUrl:"https://firebase-next-food-npa2evolh-aung67890.vercel.app/",
+    projectDemoUrl:"https://firebase-next-food-app.vercel.app/",
     imageUrl: foodMaster,
   }
   

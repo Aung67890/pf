@@ -7,6 +7,7 @@ import color from '../public/images/color.png'
 import ProjectCard from "../components/ProjectCard";
 import {motion} from 'framer-motion'
 import blog from '../public/images/blog.png'
+import foodMaster from '../public/images/foodMaster.png'
 // import { useScroll } from "../utils/UseScroll";
 import { textAnimation,cardAnimation, headerAnimation } from "../components/Animation";
 
@@ -39,6 +40,14 @@ const arr = [
     gitHubUrl:"https://github.com/Aung67890/blog-frontend",
     projectDemoUrl:"https://blogmm2.netlify.app/",
     imageUrl: blog,
+  }
+  ,
+  {
+    title: "FoodMaster with Firebase",
+    text: "Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy",
+    gitHubUrl:"https://github.com/Aung67890/Firebase-Next-Food-App",
+    projectDemoUrl:"https://firebase-next-food-npa2evolh-aung67890.vercel.app/",
+    imageUrl: foodMaster,
   }
   
 ];
